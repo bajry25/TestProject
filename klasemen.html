@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yang menang siapa</title>
+</head>
+<body>
+    <script>
+        const matchList = [
+        ["MU", "City"],
+        ["Munchen","MU"],
+        ["City", "Munchen"]
+    ]
+
+    const resultMatch = [1,0,1]
+    
+    const generateWinner = () => {
+        const teamWinner=[];
+        for (let tm = 0; tm < matchList.length; tm++){
+            let submatchList = matchList[tm];
+            let keyMatchWin = resultMatch[tm];
+
+            teamWinner.push(submatchList[keyMatchWin]);            
+        }
+        const counts = {};
+        teamWinner.forEach(function (x) { 
+            counts[x] = (counts[x] || 0) + 1; 
+        });
+
+        const data = { a: 1, b: 2, undefined: 3 };
+        const maxValue = Object.entries(counts).sort((x, y) => y[1] - x[1])[0];
+
+        document.write(maxValue[0]);
+        console.log(maxValue[0]);        
+    }
+
+    const winner = generateWinner();
+    </script>
+    
+</body>
+</html>

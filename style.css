@@ -1,0 +1,402 @@
+
+.body{
+
+}
+
+        .tampilan{
+        position: absolute;
+        height: 1027px;
+        width: 68px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        background-color: #1A0931;
+        }
+        .judul{
+            position: absolute;
+            width: 174px;
+            height: 24px;
+            left: 118px;
+            top: 20px;
+            font-family: 'OpenSans';
+            font-size: 20px;
+            line-height: 24px;
+            color: #2F3136;
+        }
+
+        
+
+        .card{
+            position: absolute;
+            width: 306px;
+            height: 340px;
+            left: 118px;
+            top: 68px;
+            background: #FEFEFF;
+            border: 1px solid #F2F2F4;
+            border-radius: 4px;
+        }
+        .text1{
+            position: absolute;
+            width: 282px;
+            height: 16px;
+            left: 12px;
+            top: 12px;
+            bottom: 312px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            color: #5D6372;
+        }
+        .text2{
+            position: absolute;
+            width: 282px;
+            height: 20px;
+            left: 12px;
+            right: 12px;
+            top: 32px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 20px;
+            color: #5D6372;
+        }
+
+        .container{
+            position: absolute;
+            height: 116px;
+            width: 282px;
+            left: 10px;
+            top: 60px;
+            background: #FFFFFF;
+            border: 1px solid #E4E4E8;
+            border-radius: 4px;
+        }
+
+        
+        
+
+        .text3{
+            position: absolute;
+            height: 14px;
+            left: 40px;
+            right: 0px;
+            top: 90px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #5D6372;
+        }
+
+        .text4{
+            position: absolute;
+            width: 210px;
+            height: 60px;
+            left: 10px;
+            top: 10px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 20px;
+            color: #2F3136;
+        }
+        .container2{
+            position: absolute;
+            height: 96px;
+            width: 282px;
+            left: 10px;
+            top: 185px;
+            background: #FFFFFF;
+            border: 1px solid #E4E4E8;
+            border-radius: 4px;
+        
+        }
+        .text5{
+            position: absolute;
+            height: 14px;
+            left: 40px;
+            right: 0px;
+            top: 70px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #5D6372;
+        }
+        .text6{
+            position: absolute;
+            width: 250px;
+            height: 20px;
+            left: 10px;
+            top: 10px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 20px;
+            color: #2F3136;;
+        }
+        .text18{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 8px;
+            gap: 8px;
+            position: absolute;
+            width: 145px;
+            height: 36px;
+            left: 122px;
+            top: 368px;
+            border-radius: 8px;
+            width: 105px;
+            height: 20px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #2F3136;
+        }
+        .card1{
+            position: absolute;
+            width: 306px;
+            height: 148px;
+            left: 440px;
+            top: 68px;
+            background: #FEFEFF;
+            border: 1px solid #F2F2F4;
+            border-radius: 4px;
+        }
+        .text7{
+            position: absolute;
+            height: 14px;
+            left: 12px;
+            right: 0px;
+            top: 12px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #5D6372;
+        }
+        .text8{
+            position: absolute;
+            width: 210px;
+            height: 60px;
+            left: 10px;
+            top: 30px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 20px;
+            color: #5D6372;
+        }
+        .text19{
+        position: absolute;
+        width: 210px;
+        height: 60px;
+        left: 40px;
+        top: 110px;
+        font-family: 'OpenSans';
+        font-size: 14px;
+        line-height: 20px;
+        color: #2F3136;
+    }
+        .text9{
+            position: absolute;
+            width: 250px;
+            height: 20px;
+            left: 10px;
+            top: 65px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 20px;
+            color: #B7BDC9;
+        }
+        
+        .card2{
+            position: absolute;
+            width: 306px;
+            height: 232px;
+            left: 762px;
+            top: 68px;
+            background: #FEFEFF;
+            border: 1px solid #F2F2F4;
+            border-radius: 4px;
+        }
+        .container3{
+            position: absolute;
+            height: 116px;
+            width: 282px;
+            left: 10px;
+            top: 60px;
+            background: #FFFFFF;
+            border: 1px solid #E4E4E8;
+            border-radius: 4px;
+        }
+
+        .text10{
+            position: absolute;
+            width: 282px;
+            height: 16px;
+            left: 12px;
+            top: 12px;
+            bottom: 312px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            color: #5D6372;
+        }
+        .text20{
+            position: absolute;
+            width: 282px;
+            height: 16px;
+            left: 40px;
+            top: 200px;
+            bottom: 312px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            color: #2F3136;
+        }
+        .text11{
+            position: absolute;
+            width: 282px;
+            height: 20px;
+            left: 12px;
+            right: 12px;
+            top: 32px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 20px;
+            color: #5D6372;
+        }
+        
+
+        .text12{
+            position: absolute;
+            height: 14px;
+            left: 40px;
+            right: 0px;
+            top: 90px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #5D6372;
+        }
+
+        .text13{
+            position: absolute;
+            width: 210px;
+            height: 60px;
+            left: 10px;
+            top: 10px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 20px;
+            color: #2F3136;
+        }
+        .card3{
+            position: absolute;
+            width: 306px;
+            height: 232px;
+            left: 1084px;
+            top: 68px;
+            background: #FEFEFF;
+            border: 1px solid #F2F2F4;
+            border-radius: 4px;
+                    }
+        .container4{
+            position: absolute;
+            height: 116px;
+            width: 282px;
+            left: 10px;
+            top: 60px;
+            background: #FFFFFF;
+            border: 1px solid #E4E4E8;
+            border-radius: 4px;
+        }
+
+        .text14{
+            position: absolute;
+            width: 282px;
+            height: 16px;
+            left: 12px;
+            top: 12px;
+            bottom: 312px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            color: #5D6372;
+        }
+        
+        .text15{
+            position: absolute;
+            width: 282px;
+            height: 20px;
+            left: 12px;
+            right: 12px;
+            top: 32px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 20px;
+            color: #5D6372;
+        }
+        
+
+        .text16{
+            position: absolute;
+            height: 14px;
+            left: 40px;
+            right: 0px;
+            top: 90px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #5D6372;
+        }
+
+        .text17{
+            position: absolute;
+            width: 210px;
+            height: 60px;
+            left: 10px;
+            top: 10px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 20px;
+            color: #2F3136;
+        }
+        .text18{
+            width: 105px;
+            height: 20px;
+            Top : 300px;
+            Left : 32px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #2F3136;
+        }
+        
+        
